@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script language="JavaScript" type="text/javascript" src="java.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Robert's Website</title>
+</head>
+
+<body>
+    <button type="button" onclick="topFunction()" id="myBtn" title="Go to top" class="icon-chevron-up"></button>
+
+    <header>
+        <div class="navbar">
+            <div id="site_name"> RG</div>
+            <nav class="navbar-right">
+                <ul>
+                    <li onclick="scrollto('about');">ABOUT ME</li>
+                    <li onclick="scrollto('projects');">PROJECTS</li>
+                    <li onclick="scrollto('future');">FUTURE PROJECTS</li>
+                    <li onclick='window.location.href = "rbtgorman_resume_22.pdf"'> RESUME </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg">
+        <h1 id="name">Robert Gorman</h1>
+        <h2> Software Developer </h2>
+    </div>
+
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/robert-gorman-638852149/" class="fa fa-linkedin-square"></a>
+        <a href="mailto: rbtgorman@gmail.com" class="fa fa-envelope"></a>
+    </div>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <div class="circular"> <img src="../resume_github/me.jpg"></div>
+        <p>
+            <span class="hello"> Hello! </span><br><br>
+            I am a developer passionate about technology and applying technological solutions to everyday problems. As
+            part of my personal growth journey, I continuously strive to learn new things everyday. It was during my
+            undergraduate years when I formally developed an interest in the tech industry, and as a result, began my
+            pursuit of a career in software. When I first arrived at Rutgers I was enrolled in the Business School as
+            that was
+            my original interest before I transitioned to computer Science. I ended up going with Computer Science, and
+            minored in
+            Business Management with an HR Concentration, and participated in the Rutgers Business Leadership Program in
+            2019, the topic of the program that year was Emotional Intelligence. My interest in the global business
+            world and finance remains,
+            but now, besides coding, I play a variety of sports recreationally and like to go out and watch sports with
+            friends as well.
+        </p>
+
+        <p>
+            Upon arriving at Rutgers, I started working for the IT Help Desk on campus where I eventually transitioned
+            to full time
+            after I graduated in January of 2021. I currently serve as a Tier 3 IT Technician where I assist with both
+            in-person
+            troubleshooting and remote. I also am in charge of planning and building classroom AV equipment. I am
+            proficent in JavaScript/CSS/HTML
+            with a desire to learn more JAVA and look into AWS. I also have experience scripting using powershell within
+            a remote linux machine at my
+            residence. I am eager to transition into software development as this field is an integral part of society
+            and is only getting more prevelent
+            as technology evoles.
+        </p>
+    </div>
+
+    <div id="projects">
+        <h1>Projects</h1>
+        <h2> Water Utility Mover App </h2>
+        <p>
+            This project was a collaboration between myself and four other team members. We created a web app for
+            consumers to change their water unility service to a new location on a scheduled date. This app was designed
+            using Flask, SQL, Python, and HTML. We used the USPS Address Validator API to verify the addresses the user
+            entered were valid. A validator method was created to verify the user entered a valid future date.
+        </p>
+
+        <h2> Personal Website</h2>
+        <p>
+            I created this website as practice and went through many iterations before picking some of my favorite
+            elements from the different variations I created. It is an on-going project that will continue to expand as
+            I gain experience. While in school, I was not exposed to JavaScript nor CSS. Through the development of this
+            website, I was able to learn to implement various methods of responsive web design. I incorporated JQuery
+            for smooth scrolling
+            along wiht a sticky chevron button was added to smooth scroll back to the top of the page.
+        </p>
+
+        <h2>Work in Progress</h2>
+        <p>
+            I am currently working on mobile compatibility for this website. I previously incorporated support for
+            various browsers and window resizing, but I am noticing scaling issues on mobile devices.
+        </p>
+    </div>
+
+    <div id="future">
+        <h1>Future Projects and Ideas</h1>
+        <h2>Company Web or Mobile App</h2>
+        <p>
+            I am planning to create an app that can help a company respond to requests from a customer that will mimic
+            the Dominos pizza tracking feature. How it would work is a customer would put in a request of any kind that
+            needs to be approved and pushed through a few different stages. Which will be represented on the tracker
+            widget to let the customer know what stage of the process he is in and some sort of time frame.
+        </p>
+        <h2>Ideas</h2>
+        <p>
+            1. Develop a way to automatically clip digital coupons on food store web sites <br>
+            2. Create a docker to assist with development on my personal home server<br>
+            3. Develop an app that further assists with home automation.
+        </p>
+    </div>
+    <p>Robert Gorman</p>
+</body>
+
+</html>
